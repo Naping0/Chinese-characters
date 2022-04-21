@@ -1,0 +1,64 @@
+---
+---
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/style1.css">
+</head>
+
+
+<h1>Chinese Characters</h1>
+<br/>
+<body>
+        <div class = "container">
+        <nav>
+            <a href="{{ site.baseurl }}/Home">Home</a>
+            <a href="{{ site.baseurl }}/Gallery">Gallery</a>
+            <a href="{{ site.baseurl }}/Search ">Search</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+    </div>
+   
+    </div>
+
+    <div class="clearfix"></div>
+
+    <p1>{{ page.title }} <a href = "{{ system.homepage }}">{{ page.system }}</a></p1><br>
+   <br>
+    <h2>Introduction</h2>
+    <div class="introduction">
+       <p align= "left" {{ content }} </p></p>
+
+    </div>
+
+    <div class="all">
+        <div class="responsive">
+            <div class="img">
+        
+                {% assign system = site.data.system | find: "name", page.system %}
+                <img src = "{{ page.image-url }}" width = 1000>
+                <p>Time-Period: {{ page.Time-Period }}</p>
+                <p>Features: {{ page.Features }}</p>
+                <p>Representative: {{ page.Representative }}</p>
+            </div>  
+        </div>
+
+        <div class="responsive">
+        <div class="img">
+    
+            {% assign system = site.data.system | find: "name", page.system %}
+    
+            <img src = "{{ page.image-url2 }}" width = 1000>
+            <p>Name: {{ page.Name }}</p>
+            <p>Discovery: {{ page.Discovery }}</p>
+            
+
+    
+        </div>  
+    </div>
+    
+       
+    </div>
+
+</body>
