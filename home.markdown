@@ -1,8 +1,10 @@
 ---
 layout: home
-title: Introduction
+title: Home
 permalink: /Home/
 ---
+<br>
+Introduction
 <br>
 Chinese characters are one of the oldest systems of writing in the world. They are also the only logographic writing systems that are still widely used and highly developed in the world. With the exception of very few Chinese characters, each Chinese character corresponds to one syllable. They are widely used in East Asia now, as well as historically used by the Sinosphere. Chinese characters are an integral part of Chinese culture. As a unique tool for recording, preserving and disseminating knowledge, Chinese characters have played an important role in carrying forward Chinese culture and promoting its development.<br>
 <br>
