@@ -8,7 +8,7 @@ body{
 
 div.container {
     margin-bottom:7%;
-    margin-right: 3%;
+    margin-right: 10%;
     margin-top: -6%;
     line-height:200%;
     text-align:right;
@@ -18,8 +18,8 @@ div.container {
 
 div.content {
     text-align: justify;
-    margin-right:3
-    margin-left:3
+    margin-right:10
+    margin-left:10
     font-size: 23px;
     line-height: 40px;
     font-family: 'Times New Roman', Times, serif;
