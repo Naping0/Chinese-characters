@@ -1,0 +1,14 @@
+---
+---
+[
+  {% for exhibit in site.exhibits %}
+    {
+
+      "title"        : "{{ exhibit.title | escape}}",
+      "url"      : "{{ site.baseurl }}{{ exhibit.url }}",
+      "Features"    : "{{ exhibit.Features }}",
+      "Representative"    : "{{ exhibit.Representative}}"
+
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
