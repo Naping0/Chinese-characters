@@ -23,7 +23,7 @@ email: 545929734@qq.com
        k20027440@kcl.ac.uk
        k21021093@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
- A searchable edition of the four oldest writing systems, including the origin and development of the writing system. All documents are encoded for structured search and analysis.
+ A searchable edition of the Chinese writing systems, including the origin and development of Chinese writing system. All documents are encoded for structured search and analysis.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://chinesecharacters-1.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Huibinn
