@@ -12,7 +12,7 @@ layout: index
   <p>Time Period: {{ exhibit.Time Period }}</p>
   <p>Features: {{ exhibit.Features }}</p>
   <p>Representative: {{ exhibit.Representative }}</p>
-  <p>Image-url: <a href="{{ exhibit.Image-url }}">{{ exhibit.Image-url }}</a></p>
+  <p>image-url: <a href="{{ exhibit.image-url }}">{{ exhibit.image-url }}</a></p>
 
 
 
