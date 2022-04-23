@@ -25,8 +25,7 @@ email: 545929734@qq.com
 description: >- # this means to ignore newlines until "baseurl:"
  A searchable edition of the four oldest writing systems, including the origin and development of the writing system. All documents are encoded for structured search and analysis.
 baseurl: "" # the subpath of your site, e.g. /blog
-
-url: "chinesecharacters-1.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chinesecharacters-1.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Huibinn
                   Lieshen1998
                   Naping0
