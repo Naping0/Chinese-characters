@@ -3,6 +3,28 @@ layout: home
 title: Home
 permalink: /Home/
 ---
+<h1>Chinese Characters</h1>
+<br/>
+<body>
+        <div class = "container">
+        <nav>
+            <a href="{{ site.baseurl }}/Home">Home</a>
+            <a href="{{ site.baseurl }}/Gallery">Gallery</a>
+            <a href="{{ site.baseurl }}/Search ">Search</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+    </div>
+    <h2>Introduction</h2>
+    <div class = "content"> 
+        {{ content }}
+        <br>
+    </div>
+
+    <div id = "footer">
+        <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for studying purposes by Huibinn, Lieshen1998 and Naping0 in 2022</p>
+        <br>
+    </div>
+</body>
 <br>
 Chinese characters are one of the oldest systems of writing in the world. They are also the only logographic writing systems that are still widely used and highly developed in the world. With the exception of very few Chinese characters, each Chinese character corresponds to one syllable. They are widely used in East Asia now, as well as historically used by the Sinosphere. Chinese characters are an integral part of Chinese culture. As a unique tool for recording, preserving and disseminating knowledge, Chinese characters have played an important role in carrying forward Chinese culture and promoting its development.<br>
 <br>
